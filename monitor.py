@@ -11,8 +11,8 @@ TELEGRAM_CHAT_ID = os.getenv("TELEGRAM_CHAT_ID")
 # ==========================================
 # ⚙️ [감시 조건 설정] - 필요에 맞춰 수정하세요
 # ==========================================
-AVAILABLE_TIMES = ["10:00", "13:30", "16:00"]  # 감시할 시간대
-INCLUDE_WEEKDAY = True   # 평일 포함 여부 (True/False)
+AVAILABLE_TIMES = ["10:00"]  # 감시할 시간대
+INCLUDE_WEEKDAY = False   # 평일 포함 여부 (True/False)
 INCLUDE_WEEKEND = True   # 주말 포함 여부 (True/False)
 
 # 특정 날짜만 지정할 때 (비워두면 요일 필터 적용)
