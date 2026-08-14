@@ -23,7 +23,7 @@ PLAYGROUND_CONFIG = {
 TARGET_TIMES = ["10:00"]
 
 # 요일 필터 (평일/주말 감시 여부)
-INCLUDE_WEEKDAY = false
+INCLUDE_WEEKDAY = False
 INCLUDE_WEEKEND = True
 
 # 특정 날짜만 집중 감시할 경우 리스트로 입력 (예: ["2026-08-20", "2026-08-21"])
